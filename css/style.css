@@ -38,7 +38,7 @@ header a:hover {
 }
 
 main {
-    height: 85vh;
+    min-height: 85vh;
 }
 
 main article {
@@ -49,22 +49,16 @@ main section {
     padding: 20px;
 }
 
-main p {
+main {
     font-size: 1.25rem;
-    margin-top: 0;
-    margin-bottom: 1.25rem;
 }
 
 main h1 {
     font-size: 3rem;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
 }
 
 main h2 {
     font-size: 1.75rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
 }
 
 footer {
@@ -104,17 +98,27 @@ table, tr, td {
     display: flex;
 }
 
-.home-img{
+.home-sideimg{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.home-img img{
+.home-sideimg img{
     width: 100%;
 }
 
 .home-text{
     flex: 2;
+}
+
+.beroep-headerimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beroep-headerimg img{
+    width: 75%;
 }
