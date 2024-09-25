@@ -11,6 +11,7 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    height: 10vh;
 }
 
 header article img {
@@ -38,6 +39,10 @@ header a:hover {
 }
 
 main {
+    height: 85vh;
+}
+
+article {
     margin: 20px;
 }
 
@@ -49,6 +54,7 @@ section h1 {
 section p {
     font-size: 18px;
     line-height: 1.6;
+    font-size: 1.5vem;
 }
 
 
@@ -60,13 +66,15 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 1px solid #dadada;
     font-size: 0.75vem;
+    height: 5vh;
 }
 
 footer ul {
     list-style-type: none;
     margin: 0;
+footer article {
+    margin: auto 20px;
     padding: 0;
     display: flex;
     align-items: center;
@@ -86,11 +94,18 @@ footer ul li a {
     margin-right: 20px;
     color: white;
     text-align: right;
+    padding: 5px;
 }
 
+<<<<<<< HEAD
 .media {
     display: flex;
     font-size: 18px;
 }
 
 
+=======
+footer a {
+    padding-right: 15px;
+}
+>>>>>>> 28dfd3cbdb783aa8f0d91e02b52a1b1eaaab1643
