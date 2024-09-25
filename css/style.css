@@ -7,10 +7,11 @@
 header {
     background-color: #333333;
     color: #ffffff;
-    padding: 5px 20px;
+    padding: 0 20px;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    height: 10vh;
 }
 
 header article img {
@@ -38,6 +39,10 @@ header a:hover {
 }
 
 main {
+    height: 85vh;
+}
+
+article {
     margin: 20px;
 }
 
@@ -47,7 +52,7 @@ section h1 {
 }
 
 section p {
-    font-size: 18px;
+    font-size: 1.5vem;
 }
 
 
@@ -59,13 +64,12 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 5px 20px;
     font-size: 0.75vem;
+    height: 5vh;
 }
 
 footer article {
-    list-style-type: none;
-    margin: 0;
+    margin: auto 20px;
     padding: 0;
     display: flex;
     align-items: center;
@@ -74,6 +78,7 @@ footer article {
 footer p {
     color: white;
     text-align: right;
+    padding: 5px;
 }
 
 footer a {
