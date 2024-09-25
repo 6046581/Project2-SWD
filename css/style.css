@@ -37,14 +37,8 @@ header a:hover {
     color: #ffcc00;
 }
 
-section {
-    display: flex;
-    padding: 50px;
-}
-
-article section {
-    margin-left: 40px;
-    max-width: 50%;
+main {
+    margin: 20px;
 }
 
 section h1 {
@@ -62,13 +56,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    position: absolute;
+    background-color: #333333;
     bottom: 0;
     left: 0;
     right: 0;
     border-top: 1px solid #dadada;
-    font-size: 12px;
+    font-size: 0.75vem;
 }
 
 footer ul {
