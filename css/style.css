@@ -54,7 +54,7 @@ section h1 {
 }
 
 section p {
-    font-size: 1.5vem;
+    font-size: 1rem;
 }
 
 footer {
@@ -65,12 +65,12 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    font-size: 0.75vem;
+    font-size: 0.9rem;
     height: 5vh;
 }
 
 footer article {
-    margin: auto 20px;
+    margin: 20px 20px;
     padding: 0;
     display: flex;
     align-items: center;
