@@ -13,22 +13,21 @@ header {
     justify-content: space-between;
 }
 
-header article {
-    font-size: 24px;
-    font-weight: bold;
+header article img {
+    height: 3rem;
+    align-items: left;
 }
 
 nav {
     background-color: #333333;
     color: white;
-    margin-left: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 header a {
-    text-decoration: none; 
+    text-decoration: none;
     color: inherit;
     font-weight: bold;
 }
@@ -48,7 +47,7 @@ article section {
 }
 
 section h1 {
-    font-size: 36px;
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
