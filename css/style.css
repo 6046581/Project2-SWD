@@ -5,13 +5,13 @@
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #333333;
     color: #ffffff;
-    padding: 0 25px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
     height: 10vh;
+    padding: 0 2vw;
 }
 
 header article img {
@@ -42,7 +42,7 @@ main {
 }
 
 main article {
-    padding: 20px;
+    padding: 20px 10vw;
 }
 
 main section {
@@ -52,7 +52,7 @@ main section {
 main p {
     font-size: 1.25rem;
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
 }
 
 main h1 {
