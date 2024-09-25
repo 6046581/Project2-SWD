@@ -7,7 +7,7 @@
 header {
     background-color: #333333;
     color: #ffffff;
-    padding: 0 20px;
+    padding: 0 25px;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -17,6 +17,7 @@ header {
 header article img {
     height: 3rem;
     align-items: left;
+    padding: 0 10px;
 }
 
 nav {
@@ -29,7 +30,7 @@ header a {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
-    padding-left: 10px;
+    padding: 0 10px;
 }
 
 header a:hover {
@@ -44,7 +45,11 @@ main article {
     padding: 20px;
 }
 
-main section h1 {
+main section {
+    padding: 20px;
+}
+
+h1 {
     font-size: 3rem;
 }
 
@@ -80,3 +85,22 @@ footer a {
 table, tr, td {
     border: 1px solid black;
   }
+
+#home article{
+    display: flex;
+}
+
+.home-img{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-img img{
+    width: 100%;
+}
+
+.home-text{
+    flex: 2;
+}
