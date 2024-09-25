@@ -42,16 +42,16 @@ main {
     height: 85vh;
 }
 
-article {
+main article {
     margin: 20px;
 }
 
-section h1 {
+main section h1 {
     font-size: 3rem;
     margin-bottom: 20px;
 }
 
-section p {
+main section p {
     font-size: 1rem;
 }
 
@@ -83,3 +83,7 @@ footer p {
 footer a {
     padding-right: 15px;
 }
+
+table, tr, td {
+    border: 1px solid black;
+  }
