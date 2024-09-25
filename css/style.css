@@ -60,11 +60,11 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 1px solid #dadada;
+    padding: 5px 20px;
     font-size: 0.75vem;
 }
 
-footer ul {
+footer article {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -72,23 +72,11 @@ footer ul {
     align-items: center;
 }
 
-footer ul li {
-    margin-left: 20px;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-.footer-text {
-    margin-right: 20px;
+footer p {
     color: white;
     text-align: right;
 }
 
-.media {
-    display: flex;
-    font-size: 18px;
+footer a {
+    padding-right: 10px;
 }
