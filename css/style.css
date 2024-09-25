@@ -49,8 +49,22 @@ main section {
     padding: 20px;
 }
 
-h1 {
+main p {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+main h1 {
     font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+main h2 {
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 footer {
@@ -61,7 +75,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     height: 5vh;
 }
 
