@@ -20,6 +20,13 @@ header article img {
     padding: 0 10px;
 }
 
+header article p {
+    font-size: 1rem; /* Adjust font size as needed */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    color: white; /* Ensure visibility if needed */
+}
+
 nav {
     background-color: #333333;
     color: white;
@@ -103,7 +110,16 @@ footer p {
 }
 
 footer a {
-    padding-right: 15px;
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+footer a:hover {
+    color: #ffcc00;
 }
 
 #home article{
