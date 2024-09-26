@@ -39,10 +39,14 @@ header a:hover {
 
 main {
     min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main article {
-    padding: 20px 10vw 0 10vw;
+    padding: 10px 10vw 10px 10vw;
 }
 
 main section {
