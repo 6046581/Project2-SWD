@@ -42,11 +42,12 @@ main {
 }
 
 main article {
-    padding: 20px 10vw;
+    padding: 20px 10vw 0 10vw;
 }
 
 main section {
     padding: 20px;
+    background-color: #f4f4f4;
 }
 
 main {
@@ -113,12 +114,31 @@ table, tr, td {
     flex: 2;
 }
 
-.beroep-headerimg{
+#beroep article{
+    display: flex;
+}
+
+.beroep-sideimg{
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.beroep-headerimg img{
+.beroep-sideimg img{
+    width: 100%;
+}
+
+.beroep-text{
+    flex: 3;
+}
+
+.doorgroei-headerimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doorgroei-headerimg img{
     width: 75%;
 }
