@@ -46,7 +46,7 @@ main {
 }
 
 main article {
-    padding: 10px 10vw 10px 10vw;
+    padding: 10px 10vw;
 }
 
 main section {
@@ -60,10 +60,21 @@ main {
 
 main h1 {
     font-size: 3rem;
+    text-align: left;
+    width: 75vw; 
 }
 
 main h2 {
     font-size: 1.75rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr td {
+    border: 1px solid black;
 }
 
 footer {
@@ -95,10 +106,6 @@ footer a {
     padding-right: 15px;
 }
 
-table, tr, td {
-    border: 1px solid black;
-  }
-
 #home article{
     display: flex;
 }
@@ -115,7 +122,7 @@ table, tr, td {
 }
 
 .home-text{
-    flex: 2;
+    flex: 2.5;
 }
 
 #beroep article{
@@ -137,6 +144,30 @@ table, tr, td {
     flex: 3;
 }
 
+#opleiding article{
+    display: flex;
+    padding: 0 10vw;
+}
+
+.opleiding-panel{
+    flex: 1;
+    margin: 25px;
+}
+
+.opleiding-headerimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opleiding-headerimg img{
+    width: 100%;
+}
+
+.opleiding-text{
+    flex: 1;
+}
+
 .doorgroei-headerimg{
     display: flex;
     align-items: center;
@@ -144,5 +175,5 @@ table, tr, td {
 }
 
 .doorgroei-headerimg img{
-    width: 75%;
+    width: 100%;
 }
