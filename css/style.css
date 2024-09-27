@@ -39,11 +39,16 @@ main {
 }
 
 main article {
+    display: flex;
+    width: 100%;
     padding: 10px 10vw;
+    box-sizing: border-box;
 }
 
 main section {
+    width: 100%;
     padding: 20px;
+    box-sizing: border-box;
     background-color: #f4f4f4;
 }
 
@@ -54,7 +59,7 @@ main {
 main h1 {
     font-size: 3rem;
     text-align: left;
-    width: 75vw; 
+    width: 75vw;
 }
 
 main h2 {
@@ -92,7 +97,8 @@ main table tbody td {
     border: 1px solid #dddddd;
 }
 
-main table tr td, table tr th {
+main table tr td,
+table tr th {
     border: 1px solid #dddddd;
 }
 
@@ -131,74 +137,65 @@ footer a:hover {
     color: #ffcc00;
 }
 
-#home article{
-    display: flex;
-}
-
-.home-sideimg{
+.home-sideimg {
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1;
 }
 
-.home-sideimg img{
+.home-sideimg img {
     width: 100%;
 }
 
-.home-text{
+.home-text {
     flex: 2.5;
 }
 
-#beroep article{
-    display: flex;
-}
-
-.beroep-sideimg{
+.beroep-sideimg {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.beroep-sideimg img{
+.beroep-sideimg img {
     width: 100%;
 }
 
-.beroep-text{
+.beroep-text {
     flex: 3;
 }
 
-#opleiding article{
-    display: flex;
+#opleiding article {
     padding: 0 10vw;
 }
 
-.opleiding-panel{
+.opleiding-panel {
     flex: 1;
     margin: 25px;
 }
 
-.opleiding-headerimg{
+.opleiding-headerimg {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.opleiding-headerimg img{
+.opleiding-headerimg img {
     width: 100%;
 }
 
-.opleiding-text{
+.opleiding-text {
     flex: 1;
 }
 
-.doorgroei-headerimg{
+.doorgroei-headerimg {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.doorgroei-headerimg img{
+.doorgroei-headerimg img {
     width: 100%;
 }
