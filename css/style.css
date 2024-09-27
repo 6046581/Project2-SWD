@@ -61,7 +61,17 @@ main h2 {
     font-size: 1.75rem;
 }
 
-table {
+main a {
+    text-decoration: none;
+    color: #005f99;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main table {
     width: 100%;
     border-collapse: collapse;
     font-size: 1rem;
@@ -69,20 +79,20 @@ table {
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-table tr:nth-child(even) {
+main table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-table tr:nth-child(odd) {
+main table tr:nth-child(odd) {
     background-color: #ffffff;
 }
 
-table tbody td {
+main table tbody td {
     padding: 10px;
     border: 1px solid #dddddd;
 }
 
-table tr td, table tr th {
+main table tr td, table tr th {
     border: 1px solid #dddddd;
 }
 
