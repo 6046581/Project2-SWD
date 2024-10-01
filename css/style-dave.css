@@ -1,0 +1,201 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    color: #ffffff;
+    height: 10vh;
+    padding: 0 2vw;
+}
+
+header article img {
+    height: 3rem;
+    padding: 0 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    padding: 0 1vw;
+}
+
+header a:hover {
+    color: #ffcc00;
+}
+
+main {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main article {
+    display: flex;
+    width: 100%;
+    padding: 10px 10vw;
+    box-sizing: border-box;
+}
+
+main section {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+main {
+    font-size: 1.25rem;
+}
+
+main h1 {
+    font-size: 3rem;
+    text-align: left;
+    width: 75vw;
+}
+
+main h2 {
+    font-size: 1.75rem;
+}
+
+main a {
+    text-decoration: none;
+    color: #005f99;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    text-align: left;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+main table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+main table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+main table tbody td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+main table tr td,
+table tr th {
+    border: 1px solid #dddddd;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    font-size: 0.75rem;
+    height: 5vh;
+}
+
+footer article {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0;
+}
+
+footer p {
+    color: white;
+    text-align: right;
+    margin: 0 25px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+.home-sideimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.home-sideimg img {
+    width: 100%;
+}
+
+.home-text {
+    flex: 2.5;
+}
+
+.beroep-sideimg {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beroep-sideimg img {
+    width: 100%;
+}
+
+.beroep-text {
+    flex: 3;
+}
+
+#opleiding article {
+    padding: 0 10vw;
+}
+
+.opleiding-panel {
+    flex: 1;
+    margin: 25px;
+}
+
+.opleiding-headerimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opleiding-headerimg img {
+    width: 100%;
+}
+
+.opleiding-text {
+    flex: 1;
+}
+
+.doorgroei-headerimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.doorgroei-headerimg img {
+    width: 100%;
+}
