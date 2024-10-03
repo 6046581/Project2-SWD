@@ -45,22 +45,34 @@ main {
     align-items: center;
 }
 
-main .titel{
-    display: flex;
+main article{
     width: 100%;
-    padding: 10px 10vw;
-    box-sizing: border-box;
-    text-align: center;
 }
 
 
-main section {
-    width: 100%;
+
+main .titel section{
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10vw;
+    text-align: center;
+
+
+}
+
+
+main article .tekst {
+    display: flex;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #ffffff;
-}
+    background-color: #f4f4f4;
 
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
 
 
 
