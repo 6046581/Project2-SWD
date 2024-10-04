@@ -74,16 +74,42 @@ main article .tekst {
 
 }
 
+main article .tekst .p{
+    padding: 10px;
+}
 
 
 
+main article .tekst .bottomimg{
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+
+main article .left-img{
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
 
 
+main article .right-img{
+    float: right;
+    width: 300px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
 
+main article .tekst {
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
 
-
-
-
+    margin-left: 200px;
+    margin-right: 200px;
+}
 footer {
     display: flex;
     justify-content: space-between;
