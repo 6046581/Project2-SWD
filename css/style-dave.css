@@ -110,3 +110,30 @@ footer a {
 footer a:hover {
     color: #ffcc00;
 }
+
+.module-engels-lowerimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 10px;
+}
+
+.module-engels-lowerimg img {
+    width: 100%;
+}
+
+.module-begeleiding-sideimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.module-begeleiding-sideimg img {
+    width: 100%;
+}
+
+.module-begeleiding-text {
+    flex: 2.5;
+}
