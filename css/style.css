@@ -234,3 +234,11 @@ footer a:hover {
 .module-begeleiding-text {
     flex: 2.5;
 }
+
+#peak a{
+    color: white;
+}
+#peak a:hover {
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
