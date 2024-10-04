@@ -23,7 +23,7 @@ header a {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
-    padding: 0 1vw;
+    padding: 0 0.75vw;
 }
 
 header a:hover {
