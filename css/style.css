@@ -16,7 +16,6 @@ header {
 
 header article img {
     height: 3rem;
-    padding: 0 10px;
 }
 
 header a {
@@ -47,14 +46,14 @@ main article {
 
 main section {
     width: 100%;
-    padding: 20px;
+    padding: 1vw;
     box-sizing: border-box;
     background-color: #f4f4f4;
 }
 
 main figure {
     width: 100%;
-    padding: 20px;
+    padding: 1vw;
     margin: 0;
     box-sizing: border-box;
     background-color: #f4f4f4;
@@ -132,28 +131,30 @@ footer {
     background-color: #333333;
     font-size: 0.75rem;
     height: 5vh;
+    padding: 0 2vw;
 }
 
 footer article {
     display: flex;
     align-items: center;
-    margin: 0 20px;
-    padding: 0;
 }
 
 footer p {
     color: white;
     text-align: right;
-    margin: 0 25px;
 }
 
 footer a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    font-size: 1.75rem;
     color: white;
-    text-align: right;
+    text-align: center;
     font-weight: bold;
-    padding: 0 10px;
+    padding: 1vh 1vh;
+    font-size: 1.75rem;
 }
 
 footer a:hover {
