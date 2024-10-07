@@ -251,10 +251,17 @@ footer a:hover {
     flex: 2.5;
 }
 
-#peak a{
-    color: white;
+.module-UIUX-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
-#peak a:hover {
-    background-color: #f4f4f4;
-    text-decoration: none;
+
+.module-UIUX-img img {
+    width: 100%;
+}
+
+.module-UIUX-text {
+    flex: 1;
 }
