@@ -129,7 +129,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #333333;
-    font-size: 0.75rem;
+    font-size: 1.5vh;
     height: 5vh;
     padding: 0 2vw;
 }
@@ -153,8 +153,8 @@ footer a {
     color: white;
     text-align: center;
     font-weight: bold;
-    padding: 1vh 1vh;
-    font-size: 1.75rem;
+    padding: 0 1vh;
+    font-size: 3.5vh;
 }
 
 footer a:hover {
