@@ -36,22 +36,20 @@ header a:hover {
 
 
 
-
-
-main {
+#nederlands {
     min-height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main article{
+#nederlands article{
     width: 100%;
 }
 
 
 
-main .titel section{
+#nederlands .titel section{
 
     display: block;
     margin: 0 auto;
@@ -62,7 +60,7 @@ main .titel section{
 }
 
 
-main article .tekst {
+#nederlands article .tekst {
     display: flex;
     padding: 20px;
     box-sizing: border-box;
@@ -74,13 +72,13 @@ main article .tekst {
 
 }
 
-main article .tekst .p{
+#nederlands article .tekst .p{
     padding: 10px;
 }
 
 
 
-main article .tekst .bottomimg{
+#nederlands article .tekst .bottomimg{
     width: 900px;
     display: block;
     margin: 0 auto;
@@ -89,14 +87,13 @@ main article .tekst .bottomimg{
 
 }
 
-main article .left-img{
+#nederlands article .left-img{
     width: 200px;
     margin-left: 200px;
     margin-top: 20px;
 }
 
-
-main article .right-img{
+#nederlands article .right-img{
     float: right;
     width: 300px;
     margin-right: 200px;
@@ -104,7 +101,7 @@ main article .right-img{
     border-radius: 10px;
 }
 
-main article .tekst {
+#nederlands article .tekst {
     display: flex;
     padding: 20px;
     box-sizing: border-box;
@@ -113,6 +110,124 @@ main article .tekst {
     margin-left: 200px;
     margin-right: 200px;
 }
+
+
+
+#burgerschap {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+
+
+#burgerschap article{
+    width: 100%;
+}
+
+
+
+#burgerschap .titel section{
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10vw;
+    text-align: center;
+
+
+}
+
+
+#burgerschap article .tekst {
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+#burgerschap article .tekst .p{
+    padding: 10px;
+}
+
+
+
+#burgerschap article .tekst .bottomimg{
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 50px;
+        width: 100%;
+}
+    
+    
+#burgerschap .titel section{
+    
+        display: block;
+        margin: 0 auto;
+        padding: 10px 10vw;
+        text-align: center;
+    
+    
+}
+    
+    
+#burgerschap article .tekst {
+        display: flex;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+    
+        margin-left: 200px;
+        margin-right: 200px;
+    
+    
+}
+    
+#burgerschap article .tekst .p{
+        padding: 10px;
+}
+    
+    
+    
+#burgerschap article .tekst .bottomimg{
+        width: 900px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        border-radius: 50px;
+    
+}
+    
+#burgershap
+
+
+#burgershap
+
+
+#burgershap
+
+
+#burgershap
+
+
+#burgershap
+
+
+.tekst-scrum{
+    flex: 2;
+}
+
+.left-img-scrum{
+    width: 200px;
+    flex: 1;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
