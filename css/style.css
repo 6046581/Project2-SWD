@@ -70,7 +70,6 @@ main img {
 }
 
 /* Font/link */
-
 main {
     font-size: 1rem;
 }
@@ -78,7 +77,9 @@ main {
 main h1 {
     font-size: 2.5rem;
     text-align: left;
-    width: 75vw;
+    width: 100vw;
+    padding: 0 10vw;
+    box-sizing: border-box;
 }
 
 main h2 {
