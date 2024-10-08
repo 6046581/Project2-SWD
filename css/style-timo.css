@@ -85,6 +85,8 @@ main article .tekst .bottomimg{
     display: block;
     margin: 0 auto;
     align-items: center;
+    border-radius: 50px;
+
 }
 
 main article .left-img{
@@ -99,6 +101,7 @@ main article .right-img{
     width: 300px;
     margin-right: 200px;
     margin-top: 20px;
+    border-radius: 10px;
 }
 
 main article .tekst {
