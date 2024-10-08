@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* Header */
 header {
     display: flex;
     align-items: center;
@@ -15,7 +16,7 @@ header {
 }
 
 header article img {
-    height: 3rem;
+    height: 8vh;
 }
 
 header a {
@@ -29,6 +30,8 @@ header a:hover {
     color: #ffcc00;
 }
 
+/* Main (articles/sections/figures) */
+
 main {
     min-height: 85vh;
     display: flex;
@@ -40,7 +43,7 @@ main {
 main article {
     display: flex;
     width: 100%;
-    padding: 10px 10vw;
+    padding: 10px 7.5vw;
     box-sizing: border-box;
 }
 
@@ -57,26 +60,20 @@ main figure {
     margin: 0;
     box-sizing: border-box;
     background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+main img {
+    width: 100%;
+}
+
+/* Font/link */
 
 main {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 main h1 {
     font-size: 2.5rem;
@@ -98,6 +95,7 @@ main a:hover {
     text-decoration: underline;
 }
 
+/* Tables */
 main table {
     width: 100%;
     border-collapse: collapse;
@@ -124,6 +122,7 @@ table tr th {
     border: 1px solid #dddddd;
 }
 
+/* Footer */
 footer {
     display: flex;
     justify-content: space-between;
@@ -161,36 +160,25 @@ footer a:hover {
     color: #ffcc00;
 }
 
+/* Homepage */
 .home-sideimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex: 1;
-}
-
-.home-sideimg img {
-    width: 100%;
 }
 
 .home-text {
     flex: 2.5;
 }
 
-.beroep-sideimg {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.beroep-sideimg img {
-    width: 100%;
-}
-
+/* Beroep page */
 .beroep-text {
     flex: 3;
 }
 
+.beroep-sideimg {
+    flex: 1;
+}
+
+/* Opleiding page */
 #opleiding article {
     padding: 0 10vw;
 }
@@ -200,68 +188,25 @@ footer a:hover {
     margin: 25px;
 }
 
-.opleiding-headerimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.opleiding-headerimg img {
-    width: 100%;
-}
-
-.opleiding-text {
-    flex: 1;
-}
-
-.doorgroei-headerimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.doorgroei-headerimg img {
-    width: 100%;
-}
-
+/* Module engels page */
 .module-engels-lowerimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    margin: 10px;
-}
-
-.module-engels-lowerimg img {
-    width: 100%;
-}
-
-.module-begeleiding-sideimg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex: 1;
 }
 
-.module-begeleiding-sideimg img {
-    width: 100%;
-}
-
+/* Module begeleiding page */
 .module-begeleiding-text {
     flex: 2.5;
 }
 
-.module-UIUX-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.module-begeleiding-sideimg {
     flex: 1;
 }
 
-.module-UIUX-img img {
-    width: 100%;
-}
-
+/* Module UI/UX page */
 .module-UIUX-text {
     flex: 3;
+}
+
+.module-UIUX-img {
+    flex: 1;
 }
