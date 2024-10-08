@@ -36,7 +36,7 @@ header a:hover {
 
 
 
-#nederlands {
+main{   
     min-height: 85vh;
     display: flex;
     flex-direction: column;
@@ -111,13 +111,6 @@ header a:hover {
     margin-right: 200px;
 }
 
-
-
-#burgerschap {
-    min-height: 85vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
 
 
 
@@ -210,6 +203,13 @@ header a:hover {
     width: 100%;
 }
 
+#scrum figure{
+    background-color: #f4f4f4;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
 
 
 #scrum .titel section{
@@ -221,37 +221,59 @@ header a:hover {
 
 
 }
-
+#scrum article{
+    display: flex;
+    width: 100%;
+    padding: 10px 7.5vw;
+}
 
 #scrum article .tekst {
-    display: flex;
     padding: 20px;
     box-sizing: border-box;
     background-color: #f4f4f4;
-
-    margin-left: 200px;
-    margin-right: 200px;
-
-
 }
 
-#scrum article .tekst .p{
+#scrum article .tekst{
+    flex: 2;
     padding: 10px;
+
+}
+
+.img-scrum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.img-scrum img{
+width: 100%;
 }
 
 
-
-
-
-.tekst-scrum{
+#opleiding article {
+    display: flex;
+    padding: 0 10vw;
 }
 
-.left-img-scrum{
-    width: 200px;
+.opleiding-panel {
+    flex: 1;
+    margin: 25px;
 }
 
+.opleiding-headerimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.opleiding-headerimg img {
+    width: 100%;
+}
 
+.opleiding-text {
+    flex: 1;
+}
 
 
 
