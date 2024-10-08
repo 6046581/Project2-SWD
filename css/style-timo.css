@@ -203,30 +203,58 @@ header a:hover {
         border-radius: 50px;
     
 }
-    
-#burgershap
 
 
-#burgershap
+
+#scrum article{
+    width: 100%;
+}
 
 
-#burgershap
+
+#scrum .titel section{
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10vw;
+    text-align: center;
 
 
-#burgershap
+}
 
 
-#burgershap
+#scrum article .tekst {
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+#scrum article .tekst .p{
+    padding: 10px;
+}
+
+
+
 
 
 .tekst-scrum{
-    flex: 2;
 }
 
 .left-img-scrum{
     width: 200px;
-    flex: 1;
 }
+
+
+
+
+
+
 
 footer {
     display: flex;
