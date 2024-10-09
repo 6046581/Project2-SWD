@@ -264,7 +264,7 @@ width: 100%;
 }
 
 #programmeren h2{
-    textalign: center;
+    text-align: center;
 }
 #programmeren .img {
     display: flex;
