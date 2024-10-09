@@ -23,8 +23,9 @@ header article img {
 header a {
     text-decoration: none;
     color: inherit;
+    font-size: 2vh;
     font-weight: bold;
-    padding: 0 0.75vw;
+    padding: 1vh 0.75vw;
 }
 
 header a:hover {
@@ -43,6 +44,7 @@ main {
 
 main article {
     display: flex;
+    justify-content: center;
     width: 100%;
     padding: 10px 7.5vw;
     box-sizing: border-box;
@@ -87,6 +89,7 @@ main h2 {
     font-size: 1.5rem;
 }
 
+/* Buttons */
 main a {
     text-decoration: none;
     color: #005f99;
@@ -97,6 +100,47 @@ main a:hover {
     text-decoration: underline;
 }
 
+/* Buttons */
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #005f99;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+button i {
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #003f66;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    color: #ffcc00;
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0;
+}
+
+/* Lists */
+ul {
+    padding-inline-start: 30px;
+}
+
+.ul-spaced li{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
 
 /* Tables */
 main table {
@@ -195,6 +239,43 @@ footer a:hover {
     margin: 25px;
 }
 
+
+/* Modules page */
+#modules article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#modules h1 {
+    text-align: center;
+}
+
+.modules-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1 1 20%;
+    min-width: 300px;
+    background-color: #f4f4f4;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.modules-text {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modules-button {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
 
 /* Module engels page */
 .module-engels-lowerimg {
