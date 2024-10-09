@@ -239,6 +239,10 @@ footer a:hover {
     margin: 25px;
 }
 
+.opleiding-button {
+    float: right;
+}
+
 
 /* Modules page */
 #modules article {
