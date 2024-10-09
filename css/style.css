@@ -240,7 +240,8 @@ footer a:hover {
 }
 
 .opleiding-button {
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
