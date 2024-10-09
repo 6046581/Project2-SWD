@@ -43,6 +43,11 @@ main{
     align-items: center;
 }
 
+article{
+    width: 100%;
+    display: flex;
+}
+
 #nederlands article{
     width: 100%;
 }
@@ -251,27 +256,24 @@ width: 100%;
 }
 
 
-#opleiding article {
-    display: flex;
-    padding: 0 10vw;
-}
 
-.opleiding-panel {
+#introductie .blok {
     flex: 1;
-    margin: 25px;
+    margin: 50px;
+    background-color: #f4f4f4;
 }
 
-.opleiding-headerimg {
+#introductie h2{
+    textalign: center;
+}
+#introductie .img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.opleiding-headerimg img {
-    width: 100%;
-}
 
-.opleiding-text {
+#introductie .text {
     flex: 1;
 }
 
