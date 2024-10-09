@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 /* Header */
 header {
     display: flex;
@@ -13,7 +14,7 @@ header {
     color: #ffffff;
     height: 10vh;
     padding: 0 2vw;
-} 
+}
 
 header article img {
     height: 8vh;
@@ -30,8 +31,8 @@ header a:hover {
     color: #ffcc00;
 }
 
-/* Main (articles/sections/figures) */
 
+/* Main (articles/sections/figures) */
 main {
     min-height: 85vh;
     display: flex;
@@ -69,6 +70,7 @@ main img {
     width: 100%;
 }
 
+
 /* Font/link */
 main {
     font-size: 1rem;
@@ -77,8 +79,7 @@ main {
 main h1 {
     font-size: 2.5rem;
     text-align: left;
-    width: 100vw;
-    padding: 0 10vw;
+    width: 80vw;
     box-sizing: border-box;
 }
 
@@ -95,6 +96,7 @@ main a {
 main a:hover {
     text-decoration: underline;
 }
+
 
 /* Tables */
 main table {
@@ -122,6 +124,7 @@ main table tr td,
 table tr th {
     border: 1px solid #dddddd;
 }
+
 
 /* Footer */
 footer {
@@ -161,6 +164,7 @@ footer a:hover {
     color: #ffcc00;
 }
 
+
 /* Homepage */
 .home-sideimg {
     flex: 1;
@@ -170,6 +174,7 @@ footer a:hover {
     flex: 2.5;
 }
 
+
 /* Beroep page */
 .beroep-text {
     flex: 3;
@@ -178,6 +183,7 @@ footer a:hover {
 .beroep-sideimg {
     flex: 1;
 }
+
 
 /* Opleiding page */
 #opleiding article {
@@ -189,10 +195,12 @@ footer a:hover {
     margin: 25px;
 }
 
+
 /* Module engels page */
 .module-engels-lowerimg {
     flex: 1;
 }
+
 
 /* Module begeleiding page */
 .module-begeleiding-text {
@@ -203,11 +211,21 @@ footer a:hover {
     flex: 1;
 }
 
+
 /* Module UI/UX page */
 .module-UIUX-text {
     flex: 3;
 }
 
 .module-UIUX-img {
+    flex: 1;
+}
+
+/* Module User Stories page */
+.module-userstories-text {
+    flex: 1;
+}
+
+.module-userstories-img {
     flex: 1;
 }
