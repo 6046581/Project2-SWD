@@ -257,23 +257,23 @@ width: 100%;
 
 
 
-#introductie .blok {
+#programmeren .blok {
     flex: 1;
     margin: 50px;
     background-color: #f4f4f4;
 }
 
-#introductie h2{
+#programmeren h2{
     textalign: center;
 }
-#introductie .img {
+#programmeren .img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-#introductie .text {
+#programmeren .text {
     flex: 1;
 }
 
