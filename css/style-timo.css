@@ -43,11 +43,6 @@ main{
     align-items: center;
 }
 
-article{
-    width: 100%;
-    display: flex;
-}
-
 #nederlands article{
     width: 100%;
 }
@@ -277,8 +272,13 @@ width: 100%;
     flex: 1;
 }
 
-
-
+#programmeren article{
+    width: 100%;
+    display: flex;
+}
+#programmeren img{
+    width: 380px;
+}
 
 footer {
     display: flex;
