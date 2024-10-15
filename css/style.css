@@ -340,3 +340,35 @@ footer a:hover {
 .module-userstories-img {
     flex: 1;
 }
+
+/* Module GIT page */
+.module-GIT-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.module-GIT-text .container{
+    margin-bottom: 10px;
+}
+
+.module-GIT-img {
+    flex: 1;
+}
+
+/* Module prototyping page */
+.module-prototyping-text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.module-prototyping-text .container{
+    margin-bottom: 10px;
+}
+
+.module-prototyping-img {
+    flex: 1;
+}
