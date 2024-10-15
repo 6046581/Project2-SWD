@@ -344,32 +344,34 @@ footer a:hover {
     flex: 1;
 }
 
+
 /* Module GIT page */
 .module-GIT-text {
-    flex: auto;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.module-GIT-text .container{
-    margin-bottom: 10px;
+.module-GIT-text .container {
+    margin: 5px 0;
 }
 
 .module-GIT-img {
-    flex: auto;
+    flex: 1;
 }
+
 
 /* Module prototyping page */
 .module-prototyping-text {
-    flex: 2;
+    flex: 3;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.module-prototyping-text .container{
-    margin-bottom: 10px;
+.module-prototyping-text .container {
+    margin: 5px 0;
 }
 
 .module-prototyping-img {
