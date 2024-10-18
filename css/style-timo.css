@@ -280,6 +280,120 @@ width: 100%;
     width: 380px;
 }
 
+
+
+#sql .blok {
+    flex: 1;
+    margin: 50px;
+    background-color: #f4f4f4;
+}
+
+#sql h2{
+    text-align: center;
+}
+#sql .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#sql .text {
+    flex: 1;
+}
+
+#sql article{
+    width: 100%;
+    display: flex;
+}
+#sql img{
+    width: 380px;
+}
+
+
+#ontwerp article{
+    width: 100%;
+}
+
+
+
+#ontwerp .titel section{
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10vw;
+    text-align: center;
+
+
+}
+
+
+#ontwerp article .tekst {
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+#ontwerp article .tekst .p{
+    padding: 10px;
+}
+
+
+
+#ontwerp article .tekst .bottomimg{
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 50px;
+        width: 100%;
+}
+    
+    
+#ontwerp .titel section{
+    
+        display: block;
+        margin: 0 auto;
+        padding: 10px 10vw;
+        text-align: center;
+    
+    
+}
+    
+    
+#ontwerp article .tekst {
+        display: flex;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+    
+        margin-left: 200px;
+        margin-right: 200px;
+    
+    
+}
+    
+#ontwerp article .tekst .p{
+        padding: 10px;
+}
+    
+    
+    
+#ontwerp article .tekst .bottomimg{
+        width: 900px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        border-radius: 50px;
+    
+}
+
 footer {
     display: flex;
     justify-content: space-between;
