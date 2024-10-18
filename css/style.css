@@ -7,7 +7,7 @@ body {
     background-color: #ffffff;
     color: #111111;
     background: url("../img/background.png");
-    animation: animate-bg 10s infinite linear;
+    animation: animate-bg 8s infinite linear;
 }
 
 @keyframes animate-bg {
@@ -306,6 +306,7 @@ footer a:hover {
     align-items: center;
     align-items: center;
     flex-direction: column;
+    padding: 0px 10px;
 }
 
 .modules-button {
@@ -354,7 +355,7 @@ footer a:hover {
 
 /* Module GIT page */
 .module-GIT-text {
-    flex: 3;
+    flex: 3.5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -371,7 +372,7 @@ footer a:hover {
 
 /* Module prototyping page */
 .module-prototyping-text {
-    flex: 3;
+    flex: 3.5;
     display: flex;
     flex-direction: column;
     justify-content: center;
