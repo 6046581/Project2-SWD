@@ -1,3 +1,5 @@
+https://docs.google.com/document/d/1wiHEYzAir3fv_PFu4PrFszr_Ws7eV09N-hALuZjXgS8/edit?usp=sharing
+
 [ Dave ]
 Style.css (word elke opdracht geupdate)
 Modules (word elke opdracht geupdate)
