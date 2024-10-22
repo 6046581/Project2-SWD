@@ -20,6 +20,7 @@ body {
 /* Header */
 header {
     display: flex;
+  
     align-items: center;
     justify-content: space-between;
     background-color: #333333;
@@ -234,6 +235,10 @@ footer a:hover {
     color: #ffcc00;
 }
 
+.flex1 {
+    flex: 1;
+}
+
 
 /* Homepage */
 .home-sideimg {
@@ -256,10 +261,6 @@ footer a:hover {
 
 
 /* Opleiding page */
-#opleiding article {
-    padding: 0 10vw;
-}
-
 .opleiding-container {
     background-color: rgba(233, 233, 233, 0.5);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
@@ -325,63 +326,41 @@ footer a:hover {
 
 
 /* Module begeleiding page */
-.module-begeleiding-text {
+#module-begeleiding-text {
     flex: 2.5;
-}
-
-.module-begeleiding-sideimg {
-    flex: 1;
 }
 
 
 /* Module UI/UX page */
-.module-UIUX-text {
+#module-UIUX-text {
     flex: 3;
-}
-
-.module-UIUX-img {
-    flex: 1;
-}
-
-/* Module User Stories page */
-.module-userstories-text {
-    flex: 1;
-}
-
-.module-userstories-img {
-    flex: 1;
 }
 
 
 /* Module GIT page */
-.module-GIT-text {
+#module-GIT-text {
     flex: 3.5;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.module-GIT-text .container {
+#module-GIT-text .container {
     margin: 5px 0;
-}
-
-.module-GIT-img {
-    flex: 1;
 }
 
 
 /* Module prototyping page */
-.module-prototyping-text {
+#module-prototyping-text {
     flex: 3.5;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.module-prototyping-text .container {
+#module-prototyping-text .container {
     margin: 5px 0;
 }
 
-.module-prototyping-img {
-    flex: 1;
-}
+
+/* MOBILE: Module rekenen page */
