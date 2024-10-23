@@ -162,6 +162,27 @@ main img {
     border-radius: 5px;
 }
 
+/* Main PHONE */
+@media (max-width: 480px) {
+    main article {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 5vw 15px 5vw;
+    }
+
+    main .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main img {
+        width: 50%;
+        margin: 0;
+    }
+}
 
 /* Font/link */
 main {
@@ -182,29 +203,6 @@ main h2 {
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 800;
     font-size: 1.5rem;
-}
-
-/* Font MOBILE/TABLET */
-@media (max-width: 768px) {
-    main {
-        font-size: 0.8rem;
-    }
-    
-    main h1 {
-        font-family: "Roboto", Arial, sans-serif;
-        font-size: 2rem;
-        text-align: left;
-        width: 80vw;
-        box-sizing: border-box;
-        margin-block-start: 0.5em;
-        margin-block-end: 0.5em;
-    }
-    
-    main h2 {
-        font-family: "Roboto", Arial, sans-serif;
-        font-weight: 800;
-        font-size: 1.2rem;
-    }
 }
 
 /* Buttons */
@@ -248,6 +246,34 @@ button:hover {
 button:active {
     transform: translateY(0);
     box-shadow: 0;
+}
+
+/* Font MOBILE/TABLET */
+@media (max-width: 768px) {
+    main {
+        font-size: 0.8rem;
+    }
+    
+    main h1 {
+        font-family: "Roboto", Arial, sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        width: 95vw;
+        box-sizing: border-box;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+    }
+    
+    main h2 {
+        font-family: "Roboto", Arial, sans-serif;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
+
+    button {
+        padding: 7.5px 15px;
+        font-size: 0.75rem;
+    }
 }
 
 /* Lists */
@@ -362,7 +388,7 @@ footer a:hover {
     background-color: rgba(233, 233, 233, 0.5);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
     flex: 1;
-    margin: 25px;
+    margin: 2vw;
 }
 
 .opleiding-button {
