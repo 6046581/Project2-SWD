@@ -20,11 +20,12 @@ body {
 /* Header */
 header {
     display: flex;
-  
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #333333;
     color: #ffffff;
+    text-align: center;
     height: 10vh;
     padding: 0 2vw;
 }
@@ -45,6 +46,73 @@ header a:hover {
     color: #ffcc00;
 }
 
+/* Header TABLET */
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        padding: 0 2vw;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    header nav a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.4vh;
+    }
+
+    header nav i {
+        font-size: 2.8vh;
+        margin-bottom: 0.5vh;
+    }
+}
+
+/* Header PHONE */
+@media (max-width: 480px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 15vh;
+        padding: 0 2vw;
+    }
+
+    header article img {
+        height: 7vh;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    header nav a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2vh;
+    }
+
+    header nav i {
+        font-size: 2.4vh;
+        margin-bottom: 0.5vh;
+    }
+}
 
 /* Main (articles/sections/figures) */
 main {
@@ -114,6 +182,29 @@ main h2 {
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 800;
     font-size: 1.5rem;
+}
+
+/* Font MOBILE/TABLET */
+@media (max-width: 768px) {
+    main {
+        font-size: 0.8rem;
+    }
+    
+    main h1 {
+        font-family: "Roboto", Arial, sans-serif;
+        font-size: 2rem;
+        text-align: left;
+        width: 80vw;
+        box-sizing: border-box;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+    }
+    
+    main h2 {
+        font-family: "Roboto", Arial, sans-serif;
+        font-weight: 800;
+        font-size: 1.2rem;
+    }
 }
 
 /* Buttons */
@@ -227,12 +318,26 @@ footer a {
     color: white;
     text-align: center;
     font-weight: bold;
-    padding: 0 1vh;
+    padding: 0 0.5vw;
     font-size: 3.5vh;
 }
 
 footer a:hover {
     color: #ffcc00;
+}
+
+@media (max-width: 360px) {
+    footer p {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    footer a {
+        padding: 0 3vw;
+    }
 }
 
 .flex1 {
@@ -241,11 +346,7 @@ footer a:hover {
 
 
 /* Homepage */
-.home-sideimg {
-    flex: 1;
-}
-
-.home-text {
+#home-text {
     flex: 2.5;
 }
 
@@ -253,10 +354,6 @@ footer a:hover {
 /* Beroep page */
 .beroep-text {
     flex: 3;
-}
-
-.beroep-sideimg {
-    flex: 1;
 }
 
 
@@ -294,7 +391,7 @@ footer a:hover {
     justify-content: space-between;
     flex-direction: column;
     flex: 1 1 20%;
-    min-width: 300px;
+    min-width: 280px;
     margin: 15px 5px;
     box-sizing: border-box;
     background-color: rgba(233, 233, 233, 0.5);
@@ -361,6 +458,3 @@ footer a:hover {
 #module-prototyping-text .container {
     margin: 5px 0;
 }
-
-
-/* MOBILE: Module rekenen page */
