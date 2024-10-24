@@ -394,6 +394,61 @@ width: 100%;
     
 }
 
+
+#wordpress article{
+    width: 100%;
+}
+
+#wordpress figure{
+    background-color: #f4f4f4;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+#wordpress .titel section{
+
+    display: block;
+    margin: 0 auto;
+    padding: 10px 10vw;
+    text-align: center;
+
+
+}
+#wordpress article{
+    display: flex;
+    width: 100%;
+    padding: 10px 7.5vw;
+}
+
+#wordpress article .tekst {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+}
+
+#wordpress article .tekst{
+    flex: 2;
+    padding: 10px;
+
+}
+
+.img-wordpress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.img-wordpress img{
+width: 100%;
+}
+
+
 footer {
     display: flex;
     justify-content: space-between;
