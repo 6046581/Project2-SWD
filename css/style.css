@@ -106,6 +106,7 @@ header a:hover {
         flex-direction: column;
         align-items: center;
         font-size: 1.2vh;
+        min-width: 15vw;
     }
 
     header nav i {
@@ -344,7 +345,7 @@ footer a {
     color: white;
     text-align: center;
     font-weight: bold;
-    padding: 0 0.5vw;
+    padding: 0 0.75vw;
     font-size: 3.5vh;
 }
 
@@ -483,4 +484,10 @@ footer a:hover {
 
 #module-prototyping-text .container {
     margin: 5px 0;
+}
+
+
+/* Module rekenen page */
+#module-rekenen-img {
+    width: 50vw;
 }
