@@ -1,30 +1,56 @@
-https://docs.google.com/document/d/1wiHEYzAir3fv_PFu4PrFszr_Ws7eV09N-hALuZjXgS8/edit?usp=sharing
+# Dave
 
-[ Dave ]
-Style.css (word elke opdracht geupdate)
-Modules (word elke opdracht geupdate)
+## Stylesheet
+- `style.css` — *Wordt bij elke opdracht geüpdatet*
 
-Home/Index  		        - De eerste pagina's
-Doorgroei		            - De eerste pagina's
-Engels  		    	    - Meer info over modules
-Begeleiding                 - Meer info over modules
-UI/UX   	      		    - Werken met een plan
-User stories                - Werken met een plan
-GIT                         - Lekker niet flexen
-Prototyping                 - Lekker niet flexen
-Rekenen                     - Vriendelijk mobieltje
-BPV                         - Vriendelijk mobieltje
+## Pagina's & Modules
 
-[ Timo ]
-Style-timo.css (word elke opdracht geupdate) (Header en footer van Dave)
+### Eerste Pagina's
+- **Home/Index**
+- **Doorgroei**
 
-Beroep (alleen html)        - De eerste pagina's
-Opleiding (alleen html)     - De eerste pagina's
-Nederlands                  - Meer info over modules
-Burgerschap                 - Meer info over modules
-Scrum		                - Werken met een plan
-Programmeren	        	- Werken met een plan
-SQL			                - Lekker niet flexen
-ontwerp		            	- Lekker niet flexen
-Wordpress	            	- Vriendelijk mobieltje
-Loopbaan	            	- Vriendelijk mobieltje
+### Meer Info over Modules
+- **Engels**
+- **Begeleiding**
+
+### Werken met een Plan
+- **UI/UX**
+- **User stories**
+
+### Lekker Niet Flexen
+- **GIT**
+- **Prototyping**
+
+### Vriendelijk Mobieltje
+- **Rekenen**
+- **BPV**
+
+---
+
+# Timo
+
+## Stylesheet
+- `style-timo.css` — *Wordt bij elke opdracht geüpdatet*  
+  *(Maakt gebruik van header en footer van Dave)*
+
+## Pagina's & Modules
+
+### Eerste Pagina's
+- **Beroep** *(alleen HTML)*
+- **Opleiding** *(alleen HTML)*
+
+### Meer Info over Modules
+- **Nederlands**
+- **Burgerschap**
+
+### Werken met een Plan
+- **Scrum**
+- **Programmeren**
+
+### Lekker Niet Flexen
+- **SQL**
+- **Ontwerp**
+
+### Vriendelijk Mobieltje
+- **WordPress**
+- **Loopbaan**
